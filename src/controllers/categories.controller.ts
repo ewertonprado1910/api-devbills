@@ -4,7 +4,6 @@ import { CategoriesServices } from "../services/categories-service"
 import { CategoriesRepository } from "../database/repositories/categories.repository"
 import { CategoryModel } from "../database/schemas/category.schema"
 import { CreateCatogoryDTO } from "../dtos/categories.dtos"
-import { z } from "zod"
 import { StatusCodes } from "http-status-codes"
 
 export class CategoriesController {

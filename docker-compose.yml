@@ -22,7 +22,9 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./:/home/app  
+      - ./:/home/app
+      -  /home/app/node_modules
+      - ./:/home/app/node_modules  
     ports:  
       - '3335:3335'
     networks:
