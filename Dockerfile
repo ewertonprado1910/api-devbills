@@ -4,8 +4,6 @@ WORKDIR /home/app
 
 COPY . ./
 
-COPY package*.json ./
-
 RUN npm i 
 
 EXPOSE 3335
