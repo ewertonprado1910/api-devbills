@@ -17,6 +17,7 @@ categoriesRoutes.post("/", validator({
     type: ParamsType.BODY
 
 
-}),
-    controller.create)
+}), controller.create)
+
+
 
