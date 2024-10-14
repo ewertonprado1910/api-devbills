@@ -1,6 +1,7 @@
 import "dotenv/config"
-import express, { json } from "express"
 import cors from "cors"
+import express, { json } from "express"
+
 
 import { routes } from "./routes"
 import { setupMongo } from "./database"
